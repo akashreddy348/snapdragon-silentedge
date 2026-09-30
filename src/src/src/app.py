@@ -3,7 +3,7 @@ import numpy as np
 import time
 import plotly.express as px
 from src.audio_capture import AudioStreamManager
-from src.engine_npu.py import NPUSpectrogramInferenceEngine
+from src.engine_npu import NPUSpectrogramInferenceEngine
 from src.threat_detector import AcousticThreatDetector
 
 st.set_page_config(page_title="SilentEdge - Snapdragon NPU Security Agent", layout="wide")
